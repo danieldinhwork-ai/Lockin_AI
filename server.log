@@ -1,0 +1,62 @@
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+ReferenceError: addXp is not defined
+    at file:///Users/mcdinh/Documents/Documents/lockin-ai/server/routes/shop.js:73:16
+    at Layer.handle [as handle_request] (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:47:12)
+ReferenceError: addXp is not defined
+    at file:///Users/mcdinh/Documents/Documents/lockin-ai/server/routes/shop.js:73:16
+    at Layer.handle [as handle_request] (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mcdinh/Documents/Documents/lockin-ai/node_modules/express/lib/router/index.js:47:12)
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000
+💾 Datenbank bereit: data/lockin.db
+🚀 LOCKIN.AI Server läuft auf http://localhost:4000

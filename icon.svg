@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1226"/>
+      <stop offset="100%" stop-color="#0d1a3a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Faint grid lines -->
+  <g stroke="#1e3a5f" stroke-width="1.5" opacity="0.3">
+    <line x1="0" y1="128" x2="512" y2="128"/>
+    <line x1="0" y1="256" x2="512" y2="256"/>
+    <line x1="0" y1="384" x2="512" y2="384"/>
+    <line x1="128" y1="0" x2="128" y2="512"/>
+    <line x1="256" y1="0" x2="256" y2="512"/>
+    <line x1="384" y1="0" x2="384" y2="512"/>
+  </g>
+  <!-- Lock body (rounded rectangle) -->
+  <rect x="156" y="220" width="200" height="160" rx="24" fill="none" stroke="url(#accent)" stroke-width="16" filter="url(#glow)"/>
+  <!-- Lock shackle (arc) -->
+  <path d="M 196 220 V 168 a 60 60 0 0 1 120 0 V 220" fill="none" stroke="url(#accent)" stroke-width="16" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- Keyhole -->
+  <circle cx="256" cy="290" r="14" fill="url(#accent)" filter="url(#glow)"/>
+  <rect x="248" y="298" width="16" height="34" rx="8" fill="url(#accent)" filter="url(#glow)"/>
+  <!-- "L" letter mark in the bottom right corner area -->
+  <text x="256" y="445" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#38bdf8" opacity="0.6" letter-spacing="4">LOCK IN</text>
+</svg>

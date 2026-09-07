@@ -1,0 +1,5 @@
+build/classes/ai/lockin/app/R.class
+build/classes/ai/lockin/app/MainActivity.class
+build/classes/ai/lockin/app/R$mipmap.class
+build/classes/ai/lockin/app/MainActivity$2.class
+build/classes/ai/lockin/app/MainActivity$1.class

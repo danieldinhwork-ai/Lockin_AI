@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: lockin-ai
+    runtime: node
+    # Persistent disks require a paid Render instance; this keeps accounts across deploys.
+    plan: starter
+    buildCommand: npm ci && node node_modules/vite/bin/vite.js build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: LOCKIN_DATA_DIR
+        value: /var/data
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+    disk:
+      name: lockin-data
+      mountPath: /var/data
+      sizeGB: 1
